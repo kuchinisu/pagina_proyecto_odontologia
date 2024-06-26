@@ -2,9 +2,13 @@ import React from 'react';
 import { Registrar, Consultar, Identificar } from './components/AISInfo';
 
 const DocumentacionAPI = () => {
+    //bg
     return (
         <>
-            <div className="container mx-auto p-4">
+            <div data-theme='cupcake' className='bg-base-300 rounded-sm'>
+
+            
+            <div className="container mx-auto p-5 bg-base-100" >
                 <div className="mb-8">
                     <h1 className="text-2xl font-bold">Documentación de la API</h1>
                 </div>
@@ -34,7 +38,7 @@ const DocumentacionAPI = () => {
                     <div className='border border-1 p-5 mb-5'>
                         <div className='text-xl font-semibold'>registrar/</div>
                         {Registrar.map((registro, index) => (
-                            <div key={index} className="mb-8 p-4 bg-gray-800 rounded-lg">
+                            <div key={index} className="mb-8 p-4 rounded-lg">
                                 <div className="text-lg font-bold mb-2">{registro.url}</div>
 
                                 <div className="mb-4">
@@ -55,7 +59,7 @@ const DocumentacionAPI = () => {
                     <div className='border border-1 p-5'>
                         <div className='text-xl font-semibold'>consultar/</div>
                         {Consultar.map((consulta, index) => (
-                            <div key={index} className="mb-8 p-4 bg-gray-800 rounded-lg">
+                            <div key={index} className="mb-8 p-4 rounded-lg">
                                 <div className="text-lg font-bold mb-2">{consulta.url}</div>
 
                                 <div className="mb-4">
@@ -94,7 +98,7 @@ const DocumentacionAPI = () => {
                     
 
                     {Identificar.map((ident, index) => (
-                            <div key={index} className="mb-8 p-4 bg-gray-800 rounded-lg">
+                            <div key={index} className="mb-8 p-4 rounded-lg">
                                 <div className="text-lg font-bold mb-2">{ident.url}</div>
 
                                 <div className="mb-4">
@@ -114,6 +118,7 @@ const DocumentacionAPI = () => {
                 </div>
 
                
+            </div>
             </div>
         </>
     );
