@@ -65,7 +65,7 @@ const Home = () => {
                             className=" rounded-lg w-1/3 h-auto"
 
                         />
-                        <div className="divider"></div>
+                        <div className="divider"></div> 
 
                     </div>
 
