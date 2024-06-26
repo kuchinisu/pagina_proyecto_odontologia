@@ -44,9 +44,9 @@ const Home = () => {
                             las huellas dactilares no están disponibles.
                         </p>
                         <img
-                            src="imagen1"
+                            src="https://raw.githubusercontent.com/kuchinisu/pagina_proyecto_odontologia/main/img/_5477f84c-1282-419b-90f3-278249cc906c.jfif"
                             alt="Descripción de la imagen"
-                            className="mx-auto rounded-lg"
+                            className="mx-auto rounded-lg w-1/3"
                         />
                     <div className="divider"></div>
                     </div>
@@ -60,9 +60,9 @@ const Home = () => {
                             identificable por los medios habituales.
                         </p>
                         <img
-                            src="imagen2"
+                            src="https://raw.githubusercontent.com/kuchinisu/pagina_proyecto_odontologia/main/img/_8f21d38a-fb02-4652-a604-560caba8f54b.jfif"
                             alt="Descripción de la imagen"
-                            className="mx-auto rounded-lg"
+                            className=" rounded-lg w-1/3 h-auto"
 
                         />
                         <div className="divider"></div>
@@ -86,10 +86,13 @@ const Home = () => {
 
                     <div className="">
                         <p className="mb-6 leading-relaxed">
-                            Por medio de este proyecto muestro mis habilidades y 
-                            experiencia en el desarrollo full-stack. La parte del backend está desarrollada principalmente con el framework Django, 
-                            incluyendo algoritmos matemáticos para la comparación del Scan 3D del cuerpo que se quiere identificar enviado por el usuario contra los modelos 3D de las bocas de los pacientes en la base de datos. 
-                            Utiliza servicios cloud con Microsoft Azure para el almacenamiento de los metadatos y de los archivos.
+                            Este proyecto está hecho en Django, para la comparación e identificacion de modelos 3d bucales usa un algoritmo matemático
+                            que ordena los vertices en su indice correspondiente según el origen de la escena, y luego compara las distancias relativas entre ambos 
+                            modelos, y devuelve una lista serializada de posibles pacientes.
+                            
+                        </p>
+                        <p>
+                            Tambien usa tecnología cloud de Microsoft azure para el almacenamiento de los datos
                         </p>
                         <div className="divider"></div>
 
