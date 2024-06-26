@@ -16,7 +16,7 @@ const Home = () => {
                                 rel="noopener noreferrer"
                             >
                                 <button className="btn btn-neutral">
-                                    Ver repositorio
+                                    Ver el proyecto
                                 </button>
                             </a>
                             <Link to={'/documentacion'}>
@@ -40,11 +40,26 @@ const Home = () => {
                             herramientas para identificar a las personas por medio de su boca cuando
                             las huellas dactilares no están disponibles.
                         </p>
-                        <img
-                            src="https://raw.githubusercontent.com/kuchinisu/pagina_proyecto_odontologia/main/img/_5477f84c-1282-419b-90f3-278249cc906c.jfif"
-                            alt="Descripción de la imagen"
-                            className="mx-auto rounded-lg w-1/3 mb-6"
-                        />
+
+                        <div className="">
+                            <img
+                                src={require("../img/close-up-dentist-instruments.jpg")}
+                                alt="Descripción de la imagen"
+                                className="mx-auto rounded-lg w-1/3 mb-6 border border-2 p-5 border-primary"
+                            />
+                        </div>
+
+                        <div className="text-sm">
+                            <a
+                                href="https://www.freepik.com/free-photo/close-up-dentist-instruments_94938231.htm#fromView=search&page=1&position=0&uuid=3ea6f79b-ea4f-418e-afa9-114075890372"
+                                className="text-blue-500 underline"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                fuente de la imagen
+                            </a>
+                        </div>
+
                         <div className="divider"></div>
                     </section>
 
@@ -56,10 +71,21 @@ const Home = () => {
                             identificable por los medios habituales.
                         </p>
                         <img
-                            src="https://raw.githubusercontent.com/kuchinisu/pagina_proyecto_odontologia/main/img/_8f21d38a-fb02-4652-a604-560caba8f54b.jfif"
+                            src={require("../img/ODHMK90.jpg")}
                             alt="Descripción de la imagen"
-                            className="mx-auto rounded-lg w-1/3 mb-6"
+                            className="mx-auto rounded-lg w-1/3 mb-6 border border-2 p-5 border-primary"
                         />
+                        
+                        {/* <a href="https://www.freepik.com/free-vector/web-storage-infographic-template_940930.htm#fromView=search&page=2&position=31&uuid=2f0e5cb4-2017-4636-b98c-5c2a60cfac8f">Image by zirconicusso on Freepik</a> */}
+                        
+                        <div className="text-sm">
+                        <a className="link link-secondary" target="_blank"
+                        href="https://www.freepik.com/free-vector/web-storage-infographic-template_940930.htm#fromView=search&page=2&position=31&uuid=2f0e5cb4-2017-4636-b98c-5c2a60cfac8f">
+                            Fuente de la imagen
+                            </a>
+                            
+                        </div>
+                        
                         <div className="divider"></div> 
                     </section>
 
